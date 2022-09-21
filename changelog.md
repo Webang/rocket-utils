@@ -1,0 +1,2 @@
+- 1.0.0 first version
+- 1.0.1 埋点上报新增 extension 字段

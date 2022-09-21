@@ -1,0 +1,31 @@
+{
+  "name": "promotion-banner",
+  "version": "1.0.15",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf lib && tsc -d"
+  },
+  "author": "xiong.gao",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-typescript": "^7.18.6",
+    "@shopee/banner-sdk-react-components-web": "^2.1.2",
+    "@types/jest": "^27.0.3",
+    "@types/react": "^16.14.0",
+    "babel-jest": "^27.4.4",
+    "eslint": "^8.22.0",
+    "jest": "^27.4.4",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.3.1"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.4"
+  }
+}

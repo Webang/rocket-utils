@@ -1,30 +1,34 @@
 {
-  "name": "promotion-banner",
+  "name": "rock-utils",
   "version": "1.0.15",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest",
-    "build": "rimraf lib && tsc -d"
+    "test": "jest src/**/*.ts",
+    "build": "rimraf lib && tsc -d",
+    "docs": "npx typedoc src/utils/*.ts",
+    "lint": "eslint src/utils/*.ts"
   },
-  "author": "xiong.gao",
+  "author": "gaollard",
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.19.1",
     "@babel/preset-typescript": "^7.18.6",
-    "@shopee/banner-sdk-react-components-web": "^2.1.2",
     "@types/jest": "^27.0.3",
     "@types/react": "^16.14.0",
+    "@typescript-eslint/parser": "^5.40.1",
     "babel-jest": "^27.4.4",
     "eslint": "^8.22.0",
     "jest": "^27.4.4",
     "ts-node": "^10.9.1",
-    "tslib": "^2.3.1"
+    "tslib": "^2.3.1",
+    "typedoc": "^0.23.17"
   },
   "peerDependencies": {
     "react": "^16.12.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.4.4"
   }

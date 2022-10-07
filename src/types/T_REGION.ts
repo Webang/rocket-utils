@@ -1,1 +1,0 @@
-export type T_REGION = 'sg' | 'br' | 'vn' | 'mx' | 'id' | 'ph' | 'my' | 'th';

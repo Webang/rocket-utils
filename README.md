@@ -14,3 +14,5 @@ Common Utils For Nodejs And Browser
 | `unionArray` | 数组之间的并集 |
 | `validateMoney` | 娇艳是否为合法金额 |
 | `toLocalAmount` | 金额千分位处理 |
+| `genRandomNum` | 生成区间内的随机数 |
+| `genRandomCodeList` | 生成不重复的随机码列表 |

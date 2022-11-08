@@ -16,3 +16,5 @@ Common Utils For Nodejs And Browser
 | `toLocalAmount` | 金额千分位处理 |
 | `genRandomNum` | 生成区间内的随机数 |
 | `genRandomCodeList` | 生成不重复的随机码列表 |
+| `formatStrToHump` | 装字符串下划线转驼峰 |
+| `toHump` | 将JSON对象格式化为驼峰模式 |

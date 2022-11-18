@@ -18,4 +18,5 @@
 | `genRandomCodeList`       | 生成不重复的随机码列表       | ✅     |
 | `formatStrToHump`         | 装字符串下划线转驼峰         | ✅     |
 | `toHump`                  | 将 JSON 对象格式化为驼峰模式 | ✅     |
+| `visitPath`               | 访问对象的属性路径           | ✅     |
 | `searchTree`              | 树的搜索                     | todo   |

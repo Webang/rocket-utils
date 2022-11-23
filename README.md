@@ -19,4 +19,5 @@
 | `formatStrToHump`         | 装字符串下划线转驼峰         | ✅     |
 | `toHump`                  | 将 JSON 对象格式化为驼峰模式 | ✅     |
 | `visitPath`               | 访问对象的属性路径           | ✅     |
+| `getUrlParam`             | 获取 URL 中的指定参数        | ✅     |
 | `searchTree`              | 树的搜索                     | todo   |

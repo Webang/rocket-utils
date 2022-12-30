@@ -1,4 +1,4 @@
-# rocket-utils
+## rocket-utils
 
 大部分时候可以选择使用 [lodash](https://www.lodashjs.com/), lodash 没有的就话就自己写吧。
 
@@ -21,3 +21,9 @@
 | `visitPath`               | 访问对象的属性路径           | ✅     |
 | `getUrlParam`             | 获取 URL 中的指定参数        | ✅     |
 | `searchTree`              | 树的搜索                     | todo   |
+
+## 常用3方的工具库
+
+| name | desc | repo |
+| dayjs | 时间处理 | - |
+| url-parse | url 参数解析 | https://www.npmjs.com/package/url-parse |
